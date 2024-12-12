@@ -10,6 +10,7 @@ Install the dependencies:
 npx expo install expo-font @expo-google-fonts/rubik
 npx expo install react-native-svg
 npm install @tabler/icons-react-native
+npm i axios
 ```
 
 Start the project:
@@ -33,6 +34,12 @@ cd api
 npm i
 npm start
 ```
+
+View the Database with Prisma Studio:
+```sh
+npx prisma studio
+```
+
 
 ## VS Code Extensions
  
