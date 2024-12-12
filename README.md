@@ -25,6 +25,15 @@ npx expo start
 
 - [Figma](https://www.figma.com/design/XYi54I0Mkj6gwjBRS07JRA/NLW-Pocket-Mobile-•-Nearby?node-id=0-1&node-type=canvas&t=mbpL6WwhnOQWGqQQ-0)
 
+## API
+
+Start the API:
+```sh
+cd api
+npm i
+npm start
+```
+
 ## VS Code Extensions
  
 - [Code Spell Checker](https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker)
