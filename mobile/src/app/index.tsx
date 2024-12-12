@@ -1,3 +1,4 @@
+import { Welcome } from "@/components/welcome"
 import { View, Text } from "react-native"
 
 export default function Index() {
@@ -9,7 +10,8 @@ export default function Index() {
         alignItems: "center"
       }}
     >
-      <Text style={{ fontSize: 22 }}>Hello React Native</Text>
+      <Welcome />
+      
     </View>
   )
 }
