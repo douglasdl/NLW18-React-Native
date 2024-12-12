@@ -11,6 +11,8 @@ npx expo install expo-font @expo-google-fonts/rubik
 npx expo install react-native-svg
 npm install @tabler/icons-react-native
 npm i axios
+npm i @gorhom/bottom-sheet
+npx expo install react-native-reanimated react-native-gesture-handler
 ```
 
 Start the project:
@@ -21,6 +23,8 @@ npx expo start
 - [Google Fonts - Rubik](https://fonts.google.com/specimen/Rubik)
 
 - [Tabler Icons](https://tabler.io/docs/icons/react-native)
+
+- [React Native Bottom Sheet](https://gorhom.dev/react-native-bottom-sheet/)
 
 - [Notion](https://docs-rocketseat.notion.site/NLW-Mobile-149395da577080a398d5dde2d90321ad)
 
