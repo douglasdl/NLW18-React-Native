@@ -13,6 +13,8 @@ npm install @tabler/icons-react-native
 npm i axios
 npm i @gorhom/bottom-sheet
 npx expo install react-native-reanimated react-native-gesture-handler
+npx expo install react-native-maps
+npx expo install expo-location
 ```
 
 Start the project:
@@ -25,6 +27,10 @@ npx expo start
 - [Tabler Icons](https://tabler.io/docs/icons/react-native)
 
 - [React Native Bottom Sheet](https://gorhom.dev/react-native-bottom-sheet/)
+
+- [MapView](https://docs.expo.dev/versions/latest/sdk/map-view/)
+
+- [Expo Location](https://docs.expo.dev/versions/latest/sdk/location/)
 
 - [Notion](https://docs-rocketseat.notion.site/NLW-Mobile-149395da577080a398d5dde2d90321ad)
 
