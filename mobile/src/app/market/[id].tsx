@@ -1,10 +1,11 @@
-import { Alert, Text, View } from "react-native"
+import { Alert, ScrollView, StatusBar, Text, View } from "react-native"
 import { router, useLocalSearchParams, Redirect } from "expo-router"
 import { api } from "@/services/api"
 import { useEffect, useState } from "react"
 import { Loading } from "@/components/loading"
 import { Cover } from "@/components/market/cover"
 import { Details, PropsDetails } from "@/components/market/details"
+import { Coupon } from "@/components/market/cupom"
 
 type DataProps = PropsDetails & {
   cover: string
@@ -13,7 +14,10 @@ type DataProps = PropsDetails & {
 export default function Market() {
   const params = useLocalSearchParams<{ id: string }>()
   const [data, setData] = useState<DataProps>()
+  const [coupon, setCoupon] = useState<string | null>(null)
   const [isLoading, setIsLoading] = useState(true)
+  const [couponIsFetching, setCouponIsFetching] = useState(false)
+  const [isVisibleCameraModal, setIsVisibleCameraModal] = useState(false)
 
   async function fetchMarket() {
     try {
@@ -45,8 +49,13 @@ export default function Market() {
 
   return (
     <View style={{ flex: 1 }}>
-      <Cover uri={data.cover} />
-      <Details data={data} />
+      <StatusBar barStyle="light-content" hidden={isVisibleCameraModal} />
+
+      <ScrollView showsVerticalScrollIndicator={false}>
+        <Cover uri={data.cover} />
+        <Details data={data} />
+        {coupon && <Coupon code={coupon} />}
+      </ScrollView>
     </View>
   )
 }
