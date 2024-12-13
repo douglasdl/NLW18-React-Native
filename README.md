@@ -1,5 +1,9 @@
 # NLW18-React-Native
 
+## QR Code Sample
+![QR Code](https://raw.githubusercontent.com/douglasdl/NLW18-React-Native/refs/heads/main/api/QR%20Code.png)
+
+
 Create the project as Navigation (TypeScript):
 ```sh
 npx create-expo-app@latest --template
