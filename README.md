@@ -52,10 +52,11 @@ This project was developped using the following technologies:
 
 ## 📐 Project
 
-This was the project from the Full Stack Week 5th Edition that was presented from AUG/05/2024 ~ AUG/12/2024.
-This project is a web application with mobile first layout (the desktop version was also developed by myself after finish the main project) to help people to efficiently find barbershop and booking/cancel sevices.
-This project also utilizes Google Authentication with OAuth integration.
-Check the deployed project online [here](https://fsw-5-barber-git-main-douglasdls-projects.vercel.app/).
+This was the project from the 18th edition of the Next Level Week (NLW18) that occured from DEC/06/2024 ~ DEC/13/2024.
+This project is a Mobile application developed for iOS and Android using React Native with Expo and Typescript. The Nerby App uses Map View to show your current location and the pins of the locations of nearby stores that offers discount cupons.
+This project also utilizes the Camera to scan QR Code from the stores to redeem the discount cupons by API integration with a Node.js backend.
+
+Download the deployed Apps on [App Store](#) and [Google Play](#).
 
 Create the project as Navigation (TypeScript):
 ```sh
@@ -145,7 +146,7 @@ This project was done using [Visual Studio Code](https://code.visualstudio.com/)
 
 ## 📝 License
 
-This project is under the MIT license. See the file [LICENSE](https://github.com/douglasdl/FSW5-Barber/blob/main/LICENSE) for more details.
+This project is under the MIT license. See the file [LICENSE](https://github.com/douglasdl/NLW18-React-Native/blob/main/LICENSE) for more details.
 
 ---
 
