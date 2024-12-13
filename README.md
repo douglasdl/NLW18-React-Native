@@ -35,6 +35,8 @@ npx expo start
 
 - [Expo Camera](https://docs.expo.dev/versions/latest/sdk/camera/)
 
+- [QRFY](https://qrfy.com)
+
 - [Notion](https://docs-rocketseat.notion.site/NLW-Mobile-149395da577080a398d5dde2d90321ad)
 
 - [Figma](https://www.figma.com/design/XYi54I0Mkj6gwjBRS07JRA/NLW-Pocket-Mobile-•-Nearby?node-id=0-1&node-type=canvas&t=mbpL6WwhnOQWGqQQ-0)
