@@ -15,6 +15,7 @@ npm i @gorhom/bottom-sheet
 npx expo install react-native-reanimated react-native-gesture-handler
 npx expo install react-native-maps
 npx expo install expo-location
+npx expo install expo-camera
 ```
 
 Start the project:
@@ -31,6 +32,8 @@ npx expo start
 - [MapView](https://docs.expo.dev/versions/latest/sdk/map-view/)
 
 - [Expo Location](https://docs.expo.dev/versions/latest/sdk/location/)
+
+- [Expo Camera](https://docs.expo.dev/versions/latest/sdk/camera/)
 
 - [Notion](https://docs-rocketseat.notion.site/NLW-Mobile-149395da577080a398d5dde2d90321ad)
 
